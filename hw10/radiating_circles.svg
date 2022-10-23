@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="640" 
+  width="640" 
+  viewBox="-64 -64 640 640">
+
+  <!-- 底圖 小圓 -->
+
+  <circle cx="256" cy="544" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="512" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="480" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="448" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="416" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="384" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="352" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="320" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="288" r="32" fill="none" stroke="cyan"/>
+
+  <circle cx="256" cy="256" r="32" fill="none" stroke="cyan"/>
+
+  <circle cx="256" cy="224" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="192" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="160" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="128" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="96"  r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="64"  r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="32"  r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="0"   r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="-32" r="32" fill="none" stroke="cyan"/>
+
+  <!-- 底圖 下 大圓 -->
+  <circle cx="256" cy="544" r="32" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="512" r="64" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="480" r="96" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="448" r="128" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="416" r="160" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="384" r="192" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="352" r="224" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="320" r="256" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="288" r="288" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="256" r="320" fill="none" stroke="cyan"/>
+
+  <!-- 底圖 上 大圓 -->
+  <circle cx="256" cy="224" r="288" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="192" r="256" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="160" r="224" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="128" r="192" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="96"  r="160" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="64"  r="128" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="32"  r="96" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="0"   r="64" fill="none" stroke="cyan"/>
+  <circle cx="256" cy="-32" r="32" fill="none" stroke="cyan"/>
+
+  <circle cx="256" cy="544" r="32" fill="none" stroke="blue" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,544)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="0.0s" dur="1.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+
+  <circle cx="256" cy="256" r="320" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="1.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+
+
+  <circle cx="256" cy="224" r="288" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,256,224)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="3.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+</svg>
+
